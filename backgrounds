@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: rgb(255, 255, 206);
+                background-size: 500px;
+                background-image: url("https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=700&dpr=2&s=none&crop=none");
+                background-repeat: no-repeat;
+                background-position: bottom;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> Hello </h1>
+    </body>
+</html>
