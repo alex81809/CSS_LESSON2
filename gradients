@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        #grad1 {
+            width: 400px;
+            height: 400px;
+            background-image: linear-gradient(to top right, #ffc7eb, #fff8c0, #e5f6ff);
+        }
+
+        .animation {
+            margin-top: 100px;
+            margin-left: 500px;
+            width: 500px;
+            height: 500px;
+            background-color: aquamarine;
+            animation-name: animate;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animate {
+            0% {
+                background-color: red;
+            }
+
+            25% {
+                background-color: yellow;
+            }
+
+            50% {
+                background-color: blue;
+            }
+
+            100% {
+                background-color: green;
+            }
+        }
+    </style>
+    </head>
+
+    <body>
+        <div id= "grad1">
+            Welcome to Codingal
+        </div>
+
+        <br>
+
+        <div class="animation">
+            This is an animation
+        </div>
+
+    </body>
+</html>
