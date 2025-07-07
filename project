@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: rgb(255, 127, 178);
+            background-size: 200px;
+            background-image: url("https://i.pinimg.com/736x/a5/39/e8/a539e89b85996c0cbf8f7510da3f6dfe.jpg");
+            background-repeat: repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            text-align: center;
+            color:rgb(181, 146, 154);
+            font-family: Comic Sans MS;
+        }
+
+        h3 {
+            text-align: center;
+            color:rgb(181, 146, 154);
+            font-family: Comic Sans MS;
+        }
+
+        #grad1 {
+            width: 400px;
+            height: 400px;
+            margin-left: 500px;
+            background-image: linear-gradient(to top right, #ffdeed, #aab5d5, #ffdeed);
+        }
+
+        .animation {
+            margin-left: 500px;
+            width: 400px;
+            height: 400px;
+            background-color: aquamarine;
+            animation-name: animate;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            
+        }
+
+        @keyframes animate {
+            0% {
+                background-color: rgb(255, 0, 144);
+            }
+
+            25% {
+                background-color: rgb(255, 230, 0);
+            }
+
+            50% {
+                background-color: rgb(115, 0, 255);
+            }
+
+            100% {
+                background-color: rgb(255, 0, 144);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Hello </h1>
+
+    <div id= "grad1">
+    <h3>This is an example of a gradient background.</h3>
+    </div>
+    
+    <br>
+    
+    <div class="animation">
+    <h3>This is an example of an animation background.</h3>
+    </div>
+</body>
+
+</html>
